@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+#bordar {
+    border-radius: 50%;
+}
+
+#navc {
+    color: #1e4b7b;
+}
+
+.navbar {
+    background-image: linear-gradient(180deg, #009efd 0%, #2af598 50%, #009efd 100%);
+}
+
+.bginicio{
+    background-image: url('Imagens/inicio.jpg');
+}
