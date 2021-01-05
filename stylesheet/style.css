@@ -132,3 +132,6 @@
 .rop{
     background-color: #0b270e;
 }
+html {
+    scroll-behavior: smooth;
+  }
