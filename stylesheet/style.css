@@ -2,18 +2,133 @@
     box-sizing: border-box;
 }
 
-#bordar {
-    border-radius: 50%;
-}
+
 
 #navc {
-    color: #1e4b7b;
+    color: snow;
 }
 
-.navbar {
-    background-image: linear-gradient(180deg, #009efd 0%, #2af598 50%, #009efd 100%);
+.nav-link{
+    color: snow;
+}
+
+#Primeiro{
+    background-image: url(Imagens/N1.png);
+    background-size: cover;
+
+}
+
+#Segundo{
+    background-image: url(Imagens/N2.png);
+    background-size: cover;
+}
+
+#Terceiro{
+    background-image: url(Imagens/N3.png);
+    background-size: cover;
+}
+
+#Quarto{
+    background-image: url(Imagens/N4.png);
+    background-size: cover;
+}
+
+.tittle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.tittleNC{
+    font-size: 20px;
 }
 
 .bginicio{
     background-image: url('Imagens/inicio.jpg');
+}
+
+
+
+.slider1{
+    padding: 10% 2%;
+    margin-top: 0;
+}
+
+.slider2{
+    padding: 10% 2%;
+    margin-top: 0;
+}
+
+.slider3{
+    padding: 7% 2%;
+    margin-top: 0;
+}
+
+
+
+.le011{
+    color: white;
+    font-family: shrikhand;
+    font-size: 50px ;
+}
+
+.le012{
+    color: white;
+    font-size: 20px ;
+}
+
+.le013{
+    color: white;
+}
+
+.le021{
+    color: lime ;
+    font-size: 20px ;
+    text-align: center;
+
+}
+
+.le022{
+    color: white;
+    font-size: 18px ;
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.le031{
+    color: greenyellow;
+    font-size: 23px ;
+    text-align: center;
+}
+
+.le032{
+    color: white;
+    font-size: 18px ;
+    text-align: justify;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.lerop{
+    color: white;
+    font-size: 30px;
+}
+
+.lerop2{
+    color: white;
+
+}
+
+.imgcarouf{ 
+    background-image: url(Imagens/N4.jpg);
+}
+
+.imgcarou{ 
+    
+    filter: brightness(50%);  
+}
+
+.rop{
+    background-color: #0b270e;
 }
