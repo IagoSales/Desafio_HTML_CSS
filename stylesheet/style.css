@@ -2,20 +2,19 @@
     box-sizing: border-box;
 }
 
-
-
-#navc {
-    color: snow;
+#textocarou{
+    margin-bottom: -5%;
+    color: white;
+    display: absolute;
 }
 
-.nav-link{
+#navc{
     color: snow;
 }
 
 #Primeiro{
     background-image: url(Imagens/N1.png);
     background-size: cover;
-
 }
 
 #Segundo{
@@ -29,8 +28,12 @@
 }
 
 #Quarto{
-    background-image: url(Imagens/N4.png);
+    background-image: url(Imagens/N4.jpg);
     background-size: cover;
+}
+
+.nav-link{
+    color: snow;
 }
 
 .tittle{
@@ -44,17 +47,10 @@
 }
 
 .bginicio{
-    background-image: url('Imagens/inicio.jpg');
+    background-image: url(Imagens/inicio.jpg);
 }
-
-
 
 .slider1{
-    padding: 10% 2%;
-    margin-top: 0;
-}
-
-.slider2{
     padding: 10% 2%;
     margin-top: 0;
 }
@@ -64,7 +60,9 @@
     margin-top: 0;
 }
 
-
+.depoimento {
+    margin-bottom: 22%;
+}
 
 .le011{
     color: white;
@@ -115,23 +113,18 @@
     font-size: 30px;
 }
 
-.lerop2{
-    color: white;
-
-}
-
 .imgcarouf{ 
     background-image: url(Imagens/N4.jpg);
 }
 
 .imgcarou{ 
-    
     filter: brightness(50%);  
 }
 
 .rop{
     background-color: #0b270e;
 }
+
 html {
     scroll-behavior: smooth;
   }
