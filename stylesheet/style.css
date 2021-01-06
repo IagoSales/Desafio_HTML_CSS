@@ -2,11 +2,9 @@
     box-sizing: border-box;
 }
 
-#textocarou{
-    margin-bottom: -5%;
-    color: white;
-    display: absolute;
-}
+html {
+    scroll-behavior: smooth;
+  }
 
 #navc{
     color: snow;
@@ -18,31 +16,32 @@
 }
 
 #Segundo{
-    background-image: url(Imagens/N2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Imagens/N2.png);
     background-size: cover;
 }
 
 #Terceiro{
-    background-image: url(Imagens/N3.png);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Imagens/N3.png);
     background-size: cover;
 }
 
-#Quarto{
-    background-image: url(Imagens/N4.jpg);
-    background-size: cover;
+#textocarou{
+    margin-bottom: -5%;
+    color: white;
+    display: absolute;
 }
 
 .nav-link{
     color: snow;
 }
 
-.tittle{
+.titlee{
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 40px;
 }
 
-.tittleNC{
+.titleNC{
     font-size: 20px;
 }
 
@@ -61,7 +60,7 @@
 }
 
 .depoimento {
-    margin-bottom: 22%;
+    margin-bottom: 20%;
 }
 
 .le011{
@@ -75,7 +74,7 @@
     font-size: 20px ;
 }
 
-.le013{
+.branca{
     color: white;
 }
 
@@ -125,6 +124,3 @@
     background-color: #0b270e;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
