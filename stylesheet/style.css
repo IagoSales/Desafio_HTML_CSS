@@ -25,12 +25,6 @@ html {
     background-size: cover;
 }
 
-#textocarou{
-    margin-bottom: -5%;
-    color: white;
-    display: absolute;
-}
-
 .nav-link{
     color: snow;
 }
@@ -45,10 +39,6 @@ html {
     font-size: 20px;
 }
 
-.bginicio{
-    background-image: url(Imagens/inicio.jpg);
-}
-
 .slider1{
     padding: 10% 2%;
     margin-top: 0;
@@ -59,8 +49,25 @@ html {
     margin-top: 0;
 }
 
-.depoimento {
-    margin-bottom: 20%;
+@media only screen and (max-width: 600px) {
+    .depoimentos {
+        margin-bottom: 60%;
+}
+    .depoimento2 {
+        margin-bottom: 80%;
+}
+}
+
+@media only screen and (min-width: 600px) {
+    .depoimento{
+        margin-bottom: 30%
+}
+}
+
+@media only screen and (min-width: 992px) {
+    .depoimento{
+        margin-bottom: 20%
+}
 }
 
 .le011{
@@ -79,7 +86,7 @@ html {
 }
 
 .le021{
-    color: lime ;
+    color: limegreen ;
     font-size: 20px ;
     text-align: center;
 
@@ -110,10 +117,6 @@ html {
 .lerop{
     color: white;
     font-size: 30px;
-}
-
-.imgcarouf{ 
-    background-image: url(Imagens/N4.jpg);
 }
 
 .imgcarou{ 
